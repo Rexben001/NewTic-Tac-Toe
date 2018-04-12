@@ -62,16 +62,6 @@ public class TwoPlayers extends AppCompatActivity {
 
         });
 
-        Button three = (Button) findViewById(R.id.three);
-        three.setEnabled(false);
-
-        Button five = (Button) findViewById(R.id.five);
-        five.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), TwoPlayers5x5.class));
-            }
-        });
         //choose X
         setX = (Button) findViewById(R.id.setX);
         setX.setOnClickListener(new OnClickListener() {
