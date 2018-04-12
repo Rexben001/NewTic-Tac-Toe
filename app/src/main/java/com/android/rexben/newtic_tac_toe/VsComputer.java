@@ -65,19 +65,7 @@ public class VsComputer extends AppCompatActivity {
 
         });
 
-        //Links to the current Activity
-        Button three = (Button) findViewById(R.id.three);
-        three.setEnabled(false);
-
-        //Links to the VSComputer5x5 Activity
-        Button five = (Button) findViewById(R.id.five);
-        five.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), VsComputer5x5.class));
-            }
-        });
-
+       
 
         //select X to play with
         //Computer play with O
